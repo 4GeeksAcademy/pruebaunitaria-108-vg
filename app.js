@@ -15,7 +15,7 @@ let oneEuroIs = {
 const fromEuroToDollar = function(valueInEuro) {
     
     let valueInDollar = valueInEuro * oneEuroIs.USD
-    return parseFloat(valueInDollar.toFidxed(2))
+    return parseFloat(valueInDollar.toFixed(2))
 };
 
 const fromDollarToYen = function(valueInDollar) {
